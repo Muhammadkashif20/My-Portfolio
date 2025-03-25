@@ -8,16 +8,20 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+
 :root {
-    --bg-color: #1f242d;
-    --second-bg-color: #323946; 
-    --text-color: #fff;
-    --main-color: #0ef;
+    --bg-color: #ffffff; /* White background */
+    --second-bg-color: #e9ecef; /* Slightly darker light gray */
+    --text-color: #222; /* Darker gray for better readability */
+    --main-color: #007bff; /* A deep blue accent for better visibility */
 }
+
+
 html {
     font-size: 62.5%;
     /* overflow-x: hidden; */
 }
+
 
 body {
     background: var(--bg-color);
@@ -41,6 +45,8 @@ section{
     align-items: center;
     z-index: 100;
 }
+ 
+
 .header.sticky {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
@@ -245,6 +251,7 @@ span {
 .portfoliobox .portfoliolayer {
     position: absolute;
     bottom: 0;
+    color: var(--second-bg-color);
     left: 0;
     width: 100%;
     height: 100%;

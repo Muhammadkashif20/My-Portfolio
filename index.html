@@ -15,7 +15,7 @@
    
     <!-- header design  -->
     <header class="header">
-        <a href="javaScript:void(0)" class="logo">Portfolio</a>
+        <a href="javaScript:void(0)" class="logo">Portfolio  💻 </a>
         <i class='bx bx-menu' id="menuicon"></i>
         <nav class="navbar">
             <a href="#home">Home</a>
@@ -207,19 +207,20 @@
     <!-- contact section design -->
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="#">
+        <form action="https://formsubmit.co/unnamed9080@gmail.com" method="POST">
             <div class="inputbox">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
             </div>
             <div class="inputbox">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" name="mobile" placeholder="Mobile Number" required>
+                <input type="text" name="subject" placeholder="Email Subject" required>
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
+    
     <!-- footer design section -->
     <footer class="footer">
         <div class="footertext">
